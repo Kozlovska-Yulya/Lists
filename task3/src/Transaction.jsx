@@ -19,13 +19,13 @@ const Transaction = ({ from, to, amount, rate, time }) => {
         <span className="transaction__amount">{formattedAmount}</span>
       </li>
       ...
-      <li className="transaction">
+      {/* <li className="transaction">
         <span className="transaction__date">10 Jan</span>
         <span className="transaction__time">19:01</span>
         <span className="transaction__assets">EUR → USD</span>
         <span className="transaction__rate">1.1</span>
         <span className="transaction__amount">100</span>
-      </li>
+      </li> */}
     </ul>
   );
 };
